@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <style>
+        div {
+            background-color: white;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 75%;
+            height: 500px;
+            border-radius: 5px;
+        }
+        body {
+            background-color: blueviolet;
+        }
+        #h1 {
+            text-align: center;
+            background-color: black;
+            color: beige;
+            border-radius: 5px;
+        }
+        a {
+            color: black;
+        }
+        nav {
+            background-color: white;
+            font-family: Calibri;
+            padding-right: 15px;
+            padding-left: 15px;
+            display: flex;
+            justify-content: space-between;
+            font-size: 25px;
+            font-weight: 600;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+       <a href="../index.html"> Home</a>
+    </nav>
+    <div>
+    <h1 id="h1"> Registration Form </h1>
+    Name: <input type="text" size="30" maxlength="15" >
+    Father Name: <input type="text" size="30" maxlength="15">
+    <br>
+    <br>
+    <br>
+    Company: <input type="text" size="30" maxlength="30">
+    <br>
+    <br>
+    <br>
+    Email: <input type="email" name="example@gmail.com" id="example@gmail.com" size="30" maxlength="22">
+    <br>
+    <br>
+    <br>
+    Phone:
+    <input type="tel" size="20" maxlength="11">
+    <br>
+    <br>
+    <br>
+    Subject:
+    <select name="cources" id="cources">
+        <option value="select option ">Select Subjects </option>
+        <option value="BS In Computer Science">BS Computer Science </option>
+        <option value="BS Medical ">BS Medical </option>
+        <option value="BS Engeneering ">BS Engeneering</option>
+        <option value="BS English">BS English </option>
+    </select>
+    <p>Are you existing customer?</p>
+    <input type="radio" name="gener" value="ok"checked="checked" /> Yes
+    <input type="radio" name="gener" value="back" /> No
+    <br>
+    <br>
+    <br>
+    <input type="submit" name="Register" value="Register" />
+</div>
+</body>
+</html>
